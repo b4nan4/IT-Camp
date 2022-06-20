@@ -1,0 +1,98 @@
+body {
+    background-color: #eca453;
+    font-family: sans-serif;
+    
+}
+
+.table {
+    background-color: rgb(240, 240, 240);
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 16px 16px 15px #ff7700;
+}
+
+.table tr:nth-child(2), td:nth-child(1) {
+    border-right: 1px dashed darkred;
+}
+
+.table tr:nth-child(2), td:nth-child(2) {
+    border-right: 1px dashed darkred;
+}
+
+.table tr:nth-child(2), td:nth-child(3) {
+    border-right: 1px dotted darkred;
+}
+
+.table tr:nth-child(2), td:nth-child(4) {
+    border-right: 1px dotted darkred;
+}
+
+.table tr:nth-child(2), td:nth-child(5) {
+    border-right: 1px dashed darkred;
+}
+
+.table tr td {
+    padding: 6px 22px;
+    text-align: center;
+}
+
+.table tr th {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.table tr:nth-child(1){
+    border-bottom: 1px solid darkred;
+}
+
+.table tr:nth-child(2), .table tr:nth-child(4), .table tr:nth-child(6), .table tr:nth-child(8) {
+    border-bottom: 1px dashed rgb(94, 0, 0);
+}
+
+.table tr:nth-child(3), .table tr:nth-child(4), .table tr:nth-child(5), .table tr:nth-child(6),
+.table tr:nth-child(7), .table tr:nth-child(8), .table tr:nth-child(9) {
+    border-right: 2px dashed rgb(201, 201, 201);
+}     
+
+.table tr:nth-child(3), .table tr:nth-child(5), .table tr:nth-child(7), .table tr:nth-child(9) {
+    border-bottom: 1px dotted rgb(94, 0, 0);
+}
+
+.table tr td:nth-child(1) {
+    text-align: left;
+}
+
+.table tr:nth-child(odd)  {
+    background-color: rgb(226, 255, 216);
+}
+
+.table tr:nth-child(1) {
+    color: darkred;
+    background-color: rgb(229, 229, 229);
+}
+
+.table tr:nth-child(10) td {
+    text-align: right;
+    font-style: italic;
+    padding: 9px;
+    border: none;
+}
+
+.table tr:nth-child(2) {
+    text-transform: uppercase;
+    color: darkred;
+    text-align: center;
+    font-weight: 500;
+}
+
+.table tr:nth-child(2), td:nth-child(0) {
+    
+    border-right: none;
+}
+
+.table tr th {
+    padding: 4px 15px;
+    font-weight: 500;
+}

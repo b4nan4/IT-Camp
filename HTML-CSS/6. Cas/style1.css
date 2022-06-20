@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+}
+
+#forma {
+    color: aqua;
+    width: 400px;
+    margin: 20px;
+    padding: 20px;
+    display: inline;
+}
+
+input {
+    background-color: darkorange;
+    color: aqua;
+    outline: none;
+
+}
+
+button {
+    color: aqua;
+    background-color: darkorange;
+
+}
