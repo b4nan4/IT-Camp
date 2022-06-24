@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: inline-block;
+    overflow: auto;
+}
+
+.container:nth-of-type(1) {
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    padding: 20px 15px;
+    border: 2px dashed aqua;
+}
+
+.container:nth-of-type(2) {
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    padding: 20px 15px;
+    border: 2px dashed aqua;
+}
+
+.container:nth-of-type(3) {
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    padding: 20px 15px;
+    border: 2px dashed aqua;
+}
+
+.container:nth-of-type(1) span {
+    color: darkorange;
+    font-size: 30px;
+}
+
+.container:nth-of-type(2) span {
+    color:  darkgoldenrod;
+    font-size: 40px;
+}
+
+.container:nth-of-type(3) span {
+    color: blue;
+    font-size: 45px;
+}
+
+.container:nth-of-type(1) p:hover {
+    background-color: darkred;
+}
+
+.container:nth-of-type(2) p:hover {
+    background-color: blue;
+}
+
+.container:nth-of-type(3) p:hover {
+    background-color: darkgoldenrod;
+}
+
+/*  */
+
+.back {
+    margin: 20px auto;
+    width: 850px;
+    height: 700px;
+    background-image: url(okean.jpg);
+    color: black;
+    /* background-repeat: no-repeat;  */
+    /* background-size: 100px 200px; prva vrednost sirina, druga visina*/
+    /* background-size: cover; prekriva ceo div */
+    /* background-size: contain; povecava fotografiju kako bi se popunio container
+    ali ne sece je. */
+}
+
+.back h1 .spn {
+    color: darkblue;
+}

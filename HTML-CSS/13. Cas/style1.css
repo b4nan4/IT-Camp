@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: aqua;
+    width: 350px;
+    height: 400px;
+    margin: 40px 20px; 
+    overflow: auto;
+    display: inline-block;
+}   
+
+/* .container:nth-of-type(2) {
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+    margin: 20px auto; 
+    overflow: auto;
+    display: block;
+}    */
+
+/* ako u display svojstvu stavimo block to nam onemogucuje 
+   dodatne stilove tog containera sto nam ne ide u korist
+   
+   pozeljno je koristiti inline-block kako nam ostaje
+   mogucnost dodatne manipulacije tog containera*/
+
+/* HTML ELEMENTS */
+/* Postoje:   */
+/* 1. Block level elements */
+/* Neki poznati block level elements: */
+/* <p> */
+/* <div> */
+/* <h1> - <h6> */
+/* <ol> <ul> <li> */
+/* <main> */
+/* <section> */
+/* <article> */
+
+
+
+/* 2. Inline elements */
+/* Neki poznati inline elements: */
+/* <span> */
+/* <a> */
+/* <img> */
+/* <button> */
