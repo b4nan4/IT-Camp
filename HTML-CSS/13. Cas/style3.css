@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: inline-block;
+    background-color: red;
+    width: 450px;
+    height: 150px;
+    background-image: url(okean.jpg);
+    background-size: cover;
+    padding: 10px;
+    margin: 0 17px;
+}
+
+.container h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container:nth-of-type(1) .spn {
+    color: darkorange;
+    font-size: 22px;
+}
+
+.container:nth-of-type(2) .spn {
+    color: darkmagenta;
+    font-size: 22px;
+}
+
+.container:nth-of-type(3) .spn {
+    color: darkorchid;
+    font-size: 22px;
+}
+
+.container:nth-of-type(1) {
+  
+}
+
+.container:nth-of-type(2) {
+   
+}
+
+.container:nth-of-type(3) {
+    
+}
