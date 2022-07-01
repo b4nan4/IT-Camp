@@ -13,7 +13,7 @@ body {
     width: 100%;
     height: 3rem;
     background-color: darkorange;
-    padding-bottom: 1rem;
+    position: relative;
 }
 
 .container img {
@@ -28,5 +28,10 @@ body {
     text-decoration: none;
     padding: 0.5rem;   
     font-size: 18px;
+}
 
+.container .child {
+    position: absolute;
+    top: 1.7em;
+    right: 0.5rem;
 }
