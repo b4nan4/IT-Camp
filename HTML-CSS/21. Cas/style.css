@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.parent {
+    margin: 0 auto;
+    width: 40%;
+    height: 400px;
+    background-color: #46466a;
+}
+
+.parent .child {
+    width: 150px;
+    height: 150px;
+    background-color: #a52a2a;
+    transition: transform 0.5s ease-in 2s;
+    
+    /* transition 
+       1. vrednost ime animacije
+       2. vrednost trajanje animacije 
+       3. vrednost tip animacije 
+       4. vrednost delay.
+    */
+}
+
+.parent:hover .child {
+    /* transform: translate(100%, 0); */
+    transform: translate(0, 250px);
+}
