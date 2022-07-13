@@ -28,7 +28,7 @@ body {
     background-color: darkviolet;
     width: 100px;
     height: 100px;
-    position: absolute;
+    position:absolute;
     /* Dozvoljene su i negativne vrednosti */
     top: -50px;
     left: -50px;
