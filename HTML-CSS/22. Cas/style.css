@@ -142,5 +142,11 @@ header .container .navbar a:hover {
         width: 90%;
     }
 
-    
+    header .container .navbar a {
+        padding: 6px;
+    }
+
+    header .container .navbar button {
+        padding: 10px 22px;
+    }
 }
